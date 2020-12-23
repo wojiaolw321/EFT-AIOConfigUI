@@ -1,0 +1,2908 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="WeaponSkillMultiplier.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 118</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="UpDown_SkillMinEffectiveness.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="FastScavCase.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ChangeMaxStamina.Parent" xml:space="preserve">
+    <value>tabPage_player</value>
+  </data>
+  <data name="NoExtractsRestrictions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 29</value>
+  </data>
+  <data name="ScavCasePriceReducer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 29</value>
+  </data>
+  <data name="&gt;&gt;IncreasedBossChance.Parent" xml:space="preserve">
+    <value>tabPage_raids</value>
+  </data>
+  <data name="UpDown_WeightChanger.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 20</value>
+  </data>
+  <data name="AllTraders4Stars.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 29</value>
+  </data>
+  <data name="AllExaminedItems.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="FastHideoutConstruction.Text" xml:space="preserve">
+    <value>藏身处快速建造</value>
+  </data>
+  <data name="&gt;&gt;ChangeSkillProgressionMultiplier.Parent" xml:space="preserve">
+    <value>tabPage_player</value>
+  </data>
+  <data name="&gt;&gt;Label_SkillFatigueReset.Parent" xml:space="preserve">
+    <value>tabPage_player</value>
+  </data>
+  <data name="Label_SkillFreshPoints.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 23</value>
+  </data>
+  <data name="ChangeLootMultipiers.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="UpDown_NewMaxStamina.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 20</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="AllExtractionsAvailable.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>22, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;ForcedMoneyStack.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="RemoveBackpacksRestrictions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 292</value>
+  </data>
+  <data name="&gt;&gt;ChangeFleaMarketLvl.Type" xml:space="preserve">
+    <value>Sunny.UI.UICheckBox, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="Button_ReloadAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>213, 533</value>
+  </data>
+  <data name="tabPage_raids.Size" type="System.Drawing.Size, System.Drawing">
+    <value>822, 492</value>
+  </data>
+  <data name="tabPage_traders.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="UpDown_TherapistNewHealingPrice.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="FastHideoutConstruction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 29</value>
+  </data>
+  <data name="&gt;&gt;FleaMarketMiniLvl.Name" xml:space="preserve">
+    <value>FleaMarketMiniLvl</value>
+  </data>
+  <data name="UpDown_TherapistNewHealingPrice.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>100, 0</value>
+  </data>
+  <data name="UpDown_WeaponSkillMultiplier.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 20</value>
+  </data>
+  <data name="&gt;&gt;Label_SkillFatigueReset.Type" xml:space="preserve">
+    <value>Sunny.UI.UILabel, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;DisableSkillFatigue.Name" xml:space="preserve">
+    <value>DisableSkillFatigue</value>
+  </data>
+  <data name="Label_SkillMinEffectiveness.Text" xml:space="preserve">
+    <value>技能最小效果</value>
+  </data>
+  <data name="WeightChanger.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="&gt;&gt;AllExtractionsAvailable.Type" xml:space="preserve">
+    <value>Sunny.UI.UICheckBox, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="RemoveBackpacksRestrictions.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="UpDown_WeaponSkillMultiplier.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="NoExtractsRestrictions.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="uiTabControlMenu1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="UpDown_SkillPointsBeforeFatigue.Text" xml:space="preserve">
+    <value>uiIntegerUpDown2</value>
+  </data>
+  <data name="AllExaminedItems.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 72</value>
+  </data>
+  <data name="&gt;&gt;RemoveSecureContainerFilters.Parent" xml:space="preserve">
+    <value>tabPage_items</value>
+  </data>
+  <data name="UpDown_ExamineExpPerc.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="SkillFreshPoints.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 295</value>
+  </data>
+  <data name="&gt;&gt;uiTabControlMenu1.Parent" xml:space="preserve">
+    <value>Header</value>
+  </data>
+  <data name="&gt;&gt;NewMaxStamina.Parent" xml:space="preserve">
+    <value>tabPage_player</value>
+  </data>
+  <data name="ChangeWeaponSkillMultiplier.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="SkillFatiguePerPoint.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Label_SkillFreshEffectiveness.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 265</value>
+  </data>
+  <data name="UpDown_SkillFatigueReset.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="UpDown_SkillFreshEffectiveness.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="&gt;&gt;UpDown_FleaMarketMiniLvl.Parent" xml:space="preserve">
+    <value>tabPage_traders</value>
+  </data>
+  <data name="UnlimitedStamina.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="IncreaseTherapistHealingPrice.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="&gt;&gt;UpDown_LootExpPerc.Type" xml:space="preserve">
+    <value>Sunny.UI.UIIntegerUpDown, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="Label_SkillFreshPoints.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="AllClothesFree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 72</value>
+  </data>
+  <data name="MaxInsuranceStorageTime.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="IncreaseExamineExp.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="NoExtractsRestrictions.Text" xml:space="preserve">
+    <value>取消撤离点条件</value>
+  </data>
+  <data name="&gt;&gt;Button_ReloadAll.Type" xml:space="preserve">
+    <value>Sunny.UI.UIButton, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UpDown_LootExpPerc.Parent" xml:space="preserve">
+    <value>tabPage_items</value>
+  </data>
+  <data name="UpDown_SkillFatiguePerPoint.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="FastScavCase.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>22, 0, 0, 0</value>
+  </data>
+  <data name="IncreaseTherapistHealingPrice.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>22, 0, 0, 0</value>
+  </data>
+  <data name="AllClotheForEverySide.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="tabPage_items.Text" xml:space="preserve">
+    <value>物品</value>
+  </data>
+  <data name="&gt;&gt;RemoveScavTimer.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="Label_SkillFreshEffectiveness.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 23</value>
+  </data>
+  <data name="tabPage_other.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;SkillFatigueReset.Name" xml:space="preserve">
+    <value>SkillFatigueReset</value>
+  </data>
+  <data name="MoreStack.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="FastHideoutConstruction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 66</value>
+  </data>
+  <data name="&gt;&gt;UpDown_FleaMarketMiniLvl.Name" xml:space="preserve">
+    <value>UpDown_FleaMarketMiniLvl</value>
+  </data>
+  <data name="AllTraders4Stars.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 256</value>
+  </data>
+  <data name="AllClotheForEverySide.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 29</value>
+  </data>
+  <data name="&gt;&gt;UpDown_ForcedMoneyStack.Type" xml:space="preserve">
+    <value>Sunny.UI.UIIntegerUpDown, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="WeightChanger.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 107</value>
+  </data>
+  <data name="&gt;&gt;MoreStack.Type" xml:space="preserve">
+    <value>Sunny.UI.UICheckBox, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="MoreStack.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>22, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;SkillFatigueReset.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;UpDown_SkillFatigueReset.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tabPage_traders.Parent" xml:space="preserve">
+    <value>uiTabControlMenu1</value>
+  </data>
+  <data name="DisableSkillFatigue.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>22, 0, 0, 0</value>
+  </data>
+  <data name="SkillPointsBeforeFatigue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="&gt;&gt;UpDown_SkillFreshEffectiveness.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="UpDown_FleaMarketMiniLvl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="MoreStack.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="RemoveLabKeycard.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="&gt;&gt;ChangeLootMultipiers.Name" xml:space="preserve">
+    <value>ChangeLootMultipiers</value>
+  </data>
+  <data name="TherapistNewHealingPrice.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="ChangeLootMultipiers.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>22, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;ForceMoneyStack.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;SkillFatigueReset.Type" xml:space="preserve">
+    <value>Sunny.UI.UITrackBar, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="AllExtractionsAvailable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 29</value>
+  </data>
+  <data name="&gt;&gt;UpDown_NewMaxStamina.Name" xml:space="preserve">
+    <value>UpDown_NewMaxStamina</value>
+  </data>
+  <data name="WeightOptions.Text" xml:space="preserve">
+    <value>负重开关(单位：倍)</value>
+  </data>
+  <data name="RemoveSecureContainerFilters.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="UpDown_NewMaxStamina.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;AllClothesFree.Type" xml:space="preserve">
+    <value>Sunny.UI.UICheckBox, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tabPage_items.Size" type="System.Drawing.Size, System.Drawing">
+    <value>822, 492</value>
+  </data>
+  <data name="RemoveContainersRestrictions.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="InRaidModdable.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>22, 0, 0, 0</value>
+  </data>
+  <data name="Label_SkillFatigueReset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 370</value>
+  </data>
+  <data name="&gt;&gt;MaxStackAmount.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;Label_SkillFatigueReset.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="UpDown_SkillMinEffectiveness.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="TherapistNewHealingPrice.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="&gt;&gt;ForcedMoneyStack.Name" xml:space="preserve">
+    <value>ForcedMoneyStack</value>
+  </data>
+  <data name="&gt;&gt;UpDown_FleaMarketMiniLvl.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="AllExtractionsAvailable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 68</value>
+  </data>
+  <data name="&gt;&gt;RemoveBackpacksRestrictions.Name" xml:space="preserve">
+    <value>RemoveBackpacksRestrictions</value>
+  </data>
+  <data name="IncreaseTherapistHealingPrice.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="ChangeFleaMarketLvl.Text" xml:space="preserve">
+    <value>修改跳蚤市场启用等级</value>
+  </data>
+  <data name="tabPage_traders.Text" xml:space="preserve">
+    <value>商人</value>
+  </data>
+  <data name="&gt;&gt;IncreaseExamineExp.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;RemoveContainersRestrictions.Type" xml:space="preserve">
+    <value>Sunny.UI.UICheckBox, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;SkillFreshPoints.Type" xml:space="preserve">
+    <value>Sunny.UI.UITrackBar, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ChangeSkillProgressionMultiplier.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="&gt;&gt;tabPage_traders.Name" xml:space="preserve">
+    <value>tabPage_traders</value>
+  </data>
+  <data name="&gt;&gt;UpDown_ExamineExpPerc.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="UpDown_ForcedMoneyStack.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="&gt;&gt;Button_ReloadAll.Name" xml:space="preserve">
+    <value>Button_ReloadAll</value>
+  </data>
+  <data name="&gt;&gt;UpDown_SkillFreshEffectiveness.Name" xml:space="preserve">
+    <value>UpDown_SkillFreshEffectiveness</value>
+  </data>
+  <data name="&gt;&gt;tabPage_hideout.Parent" xml:space="preserve">
+    <value>uiTabControlMenu1</value>
+  </data>
+  <data name="SkillPointsBeforeFatigue.Text" xml:space="preserve">
+    <value>SkillPointsBeforeFatigue</value>
+  </data>
+  <data name="&gt;&gt;FastHideoutConstruction.Parent" xml:space="preserve">
+    <value>tabPage_hideout</value>
+  </data>
+  <data name="&gt;&gt;Aside.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Button_ReloadAll.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="RemoveInRaidsRestrictions.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="RemoveContainersRestrictions.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>22, 0, 0, 0</value>
+  </data>
+  <data name="ForcedMoneyStack.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="WeightOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 29</value>
+  </data>
+  <data name="&gt;&gt;SkillMultiplier.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="AllClotheForEverySide.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="Label_SkillFreshEffectiveness.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;UpDown_SkillFatiguePerPoint.Name" xml:space="preserve">
+    <value>UpDown_SkillFatiguePerPoint</value>
+  </data>
+  <data name="WeightChanger.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="UpDown_WeaponSkillMultiplier.Text" xml:space="preserve">
+    <value>uiIntegerUpDown2</value>
+  </data>
+  <data name="Label_version.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 33</value>
+  </data>
+  <data name="&gt;&gt;LootExpPerc.Type" xml:space="preserve">
+    <value>Sunny.UI.UITrackBar, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="UpDown_SkillFreshPoints.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>100, 0</value>
+  </data>
+  <data name="ExamineExpPerc.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="UpDown_SkillFreshPoints.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ChangeFleaMarketLvl.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="&gt;&gt;RemoveScavTimer.Type" xml:space="preserve">
+    <value>Sunny.UI.UICheckBox, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="EquipRigsWithArmors.Text" xml:space="preserve">
+    <value>弹挂甲和弹挂共存</value>
+  </data>
+  <data name="UpDown_MaxStackAmount.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="SkillFatigueReset.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="&gt;&gt;HideWarningMessage.Name" xml:space="preserve">
+    <value>HideWarningMessage</value>
+  </data>
+  <data name="&gt;&gt;AllClothesFree.Parent" xml:space="preserve">
+    <value>tabPage_traders</value>
+  </data>
+  <data name="&gt;&gt;ScavCasePriceReducer.Name" xml:space="preserve">
+    <value>ScavCasePriceReducer</value>
+  </data>
+  <data name="RemoveBackpacksRestrictions.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="AllClotheForEverySide.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="FastHideoutProduction.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="AllClothesFree.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>22, 0, 0, 0</value>
+  </data>
+  <data name="uiTabControlMenu1.Alignment" type="System.Windows.Forms.TabAlignment, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;UpDown_WeightChanger.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ChangeMaxStamina.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="UpDown_SkillMultiplier.Location" type="System.Drawing.Point, System.Drawing">
+    <value>373, 86</value>
+  </data>
+  <data name="UpDown_ExamineExpPerc.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="SkillMultiplier.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 29</value>
+  </data>
+  <data name="&gt;&gt;Label_SkillFreshPoints.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="MaxInsuranceStorageTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 221</value>
+  </data>
+  <data name="RemoveSecureContainerFilters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 29</value>
+  </data>
+  <data name="UpDown_SkillPointsBeforeFatigue.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="RemoveContainersRestrictions.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="RemoveSecureContainerFilters.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 257</value>
+  </data>
+  <data name="SkillFatigueReset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 29</value>
+  </data>
+  <data name="Aside.Size" type="System.Drawing.Size, System.Drawing">
+    <value>644, 63</value>
+  </data>
+  <data name="AllExaminedItems.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 29</value>
+  </data>
+  <data name="UpDown_SkillFreshEffectiveness.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>100, 0</value>
+  </data>
+  <data name="tabPage_player.Text" xml:space="preserve">
+    <value>玩家</value>
+  </data>
+  <data name="AllClothesFree.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="Label_SkillMinEffectiveness.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 195</value>
+  </data>
+  <data name="MaxStackAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>191, 152</value>
+  </data>
+  <data name="&gt;&gt;tabPage_hideout.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="UpDown_SkillFatigueReset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 373</value>
+  </data>
+  <data name="&gt;&gt;UpDown_WeaponSkillMultiplier.Type" xml:space="preserve">
+    <value>Sunny.UI.UIIntegerUpDown, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="Label_SkillPointsBeforeFatigue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 336</value>
+  </data>
+  <data name="UpDown_SkillFatiguePerPoint.Text" xml:space="preserve">
+    <value>uiDoubleUpDown1</value>
+  </data>
+  <data name="IncreasedBossChance.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="&gt;&gt;SkillFatiguePerPoint.Name" xml:space="preserve">
+    <value>SkillFatiguePerPoint</value>
+  </data>
+  <data name="RemoveContainersRestrictions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 29</value>
+  </data>
+  <data name="RemoveInRaidsRestrictions.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>22, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;UpDown_SkillPointsBeforeFatigue.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;IncreaseTherapistHealingPrice.Name" xml:space="preserve">
+    <value>IncreaseTherapistHealingPrice</value>
+  </data>
+  <data name="Button_ReloadAll.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="WeightChanger.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;Label_SkillFreshEffectiveness.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;tabPage_other.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IncreaseLootExp.Parent" xml:space="preserve">
+    <value>tabPage_items</value>
+  </data>
+  <data name="&gt;&gt;RemoveBackpacksRestrictions.Type" xml:space="preserve">
+    <value>Sunny.UI.UICheckBox, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;IncreaseTherapistHealingPrice.Type" xml:space="preserve">
+    <value>Sunny.UI.UICheckBox, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="UpDown_SkillMultiplier.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 20</value>
+  </data>
+  <data name="InRaidModdable.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="FastScavCase.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 29</value>
+  </data>
+  <data name="UpDown_SkillFatigueReset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 20</value>
+  </data>
+  <data name="&gt;&gt;MaxInsuranceStorageTime.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ForcedMoneyStack.Parent" xml:space="preserve">
+    <value>tabPage_items</value>
+  </data>
+  <data name="&gt;&gt;UpDown_NewMaxStamina.Type" xml:space="preserve">
+    <value>Sunny.UI.UIIntegerUpDown, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;SkillMultiplier.Type" xml:space="preserve">
+    <value>Sunny.UI.UITrackBar, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="UpDown_SkillMinEffectiveness.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 198</value>
+  </data>
+  <data name="MaxInsuranceStorageTime.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="&gt;&gt;Label_SkillFreshEffectiveness.Type" xml:space="preserve">
+    <value>Sunny.UI.UILabel, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="SkillMinEffectiveness.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="IncreaseExamineExp.Text" xml:space="preserve">
+    <value>增加检查经验</value>
+  </data>
+  <data name="&gt;&gt;SkillFreshPoints.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;FastHideoutConstruction.Type" xml:space="preserve">
+    <value>Sunny.UI.UICheckBox, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="Label_SkillPointsBeforeFatigue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 23</value>
+  </data>
+  <data name="ChangeLootMultipiers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 29</value>
+  </data>
+  <data name="Label_SkillFatiguePerPoint.Text" xml:space="preserve">
+    <value>技能疲劳倍数</value>
+  </data>
+  <data name="IncreasedBossChance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 29</value>
+  </data>
+  <data name="ChangeSkillProgressionMultiplier.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 29</value>
+  </data>
+  <data name="&gt;&gt;RemoveBackpacksRestrictions.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>10, 21</value>
+  </data>
+  <data name="&gt;&gt;AllClotheForEverySide.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;Button_ApplyConfig.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="UpDown_SkillMultiplier.Text" xml:space="preserve">
+    <value>uiIntegerUpDown1</value>
+  </data>
+  <data name="UnlimitedStamina.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="UnlimitedStamina.Text" xml:space="preserve">
+    <value>不限制耐力</value>
+  </data>
+  <data name="AllTraders4Stars.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="&gt;&gt;FastHideoutConstruction.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="UpDown_SkillFatiguePerPoint.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="AllExaminedItems.Text" xml:space="preserve">
+    <value>物品全检视</value>
+  </data>
+  <data name="&gt;&gt;FastScavCase.Parent" xml:space="preserve">
+    <value>tabPage_hideout</value>
+  </data>
+  <data name="UpDown_LootExpPerc.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>100, 0</value>
+  </data>
+  <data name="&gt;&gt;MaxInsuranceStorageTime.Type" xml:space="preserve">
+    <value>Sunny.UI.UICheckBox, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="UpDown_SkillFreshEffectiveness.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="&gt;&gt;AllExaminedItems.Name" xml:space="preserve">
+    <value>AllExaminedItems</value>
+  </data>
+  <data name="Label_SkillFreshPoints.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;UpDown_ForcedMoneyStack.Parent" xml:space="preserve">
+    <value>tabPage_items</value>
+  </data>
+  <data name="NewMaxStamina.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;uiTabControlMenu1.Name" xml:space="preserve">
+    <value>uiTabControlMenu1</value>
+  </data>
+  <data name="&gt;&gt;UpDown_SkillFatiguePerPoint.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabPage_player.Size" type="System.Drawing.Size, System.Drawing">
+    <value>822, 492</value>
+  </data>
+  <data name="Label_SkillPointsBeforeFatigue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="MaxInsuranceStorageTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 29</value>
+  </data>
+  <data name="Label_SkillFatiguePerPoint.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="LootExpPerc.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="UpDown_FleaMarketMiniLvl.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>100, 0</value>
+  </data>
+  <data name="&gt;&gt;InRaidModdable.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="LootExpPerc.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="Label_SkillPointsBeforeFatigue.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="FastScavCase.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="Label_version.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;EquipRigsWithArmors.Type" xml:space="preserve">
+    <value>Sunny.UI.UICheckBox, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;SkillFatiguePerPoint.Parent" xml:space="preserve">
+    <value>tabPage_player</value>
+  </data>
+  <data name="&gt;&gt;AllQuestsAvailable.Name" xml:space="preserve">
+    <value>AllQuestsAvailable</value>
+  </data>
+  <data name="ExtendedRaid.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="UpDown_WeightChanger.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="HideWarningMessage.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="ExtendedRaid.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="ForcedMoneyStack.Text" xml:space="preserve">
+    <value>uiTrackBar1</value>
+  </data>
+  <data name="&gt;&gt;ForcedMoneyStack.Type" xml:space="preserve">
+    <value>Sunny.UI.UITrackBar, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="RemoveBackpacksRestrictions.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>22, 0, 0, 0</value>
+  </data>
+  <data name="UpDown_SkillFatiguePerPoint.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ChangeWeaponSkillMultiplier.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 29</value>
+  </data>
+  <data name="LootExpPerc.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="RemoveInRaidsRestrictions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>517, 48</value>
+  </data>
+  <data name="&gt;&gt;DisableSkillFatigue.Parent" xml:space="preserve">
+    <value>tabPage_player</value>
+  </data>
+  <data name="ExtendedRaid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 159</value>
+  </data>
+  <data name="&gt;&gt;ChangeMaxStamina.Type" xml:space="preserve">
+    <value>Sunny.UI.UICheckBox, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="AllTraders4Stars.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>22, 0, 0, 0</value>
+  </data>
+  <data name="UpDown_NewMaxStamina.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="&gt;&gt;RemoveScavTimer.Parent" xml:space="preserve">
+    <value>tabPage_player</value>
+  </data>
+  <data name="uiTabControlMenu1.ItemSize" type="System.Drawing.Size, System.Drawing">
+    <value>40, 100</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Ereshkigal-AllinOneMod配置器[R6]</value>
+  </data>
+  <data name="&gt;&gt;tabPage_other.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;NewMaxStamina.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;SkillFatiguePerPoint.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="ChangeMaxStamina.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="&gt;&gt;UpDown_SkillMinEffectiveness.Type" xml:space="preserve">
+    <value>Sunny.UI.UIDoubleUpDown, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="EquipRigsWithArmors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 29</value>
+  </data>
+  <data name="&gt;&gt;Label_SkillFatiguePerPoint.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="RemoveBackpacksRestrictions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 29</value>
+  </data>
+  <data name="&gt;&gt;MaxStackAmount.Type" xml:space="preserve">
+    <value>Sunny.UI.UITrackBar, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UpDown_SkillFreshPoints.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;WeaponSkillMultiplier.Name" xml:space="preserve">
+    <value>WeaponSkillMultiplier</value>
+  </data>
+  <data name="SkillPointsBeforeFatigue.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="IncreaseLootExp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 29</value>
+  </data>
+  <data name="SkillMultiplier.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="MaxStackAmount.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="ChangeLootMultipiers.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="&gt;&gt;TherapistNewHealingPrice.Name" xml:space="preserve">
+    <value>TherapistNewHealingPrice</value>
+  </data>
+  <data name="&gt;&gt;InRaidModdable.Parent" xml:space="preserve">
+    <value>tabPage_items</value>
+  </data>
+  <data name="&gt;&gt;UpDown_TherapistNewHealingPrice.Parent" xml:space="preserve">
+    <value>tabPage_traders</value>
+  </data>
+  <data name="&gt;&gt;Label_SkillFreshPoints.Type" xml:space="preserve">
+    <value>Sunny.UI.UILabel, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="NewMaxStamina.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="&gt;&gt;MaxInsuranceStorageTime.Parent" xml:space="preserve">
+    <value>tabPage_traders</value>
+  </data>
+  <data name="&gt;&gt;Label_SkillFatiguePerPoint.Parent" xml:space="preserve">
+    <value>tabPage_player</value>
+  </data>
+  <data name="UpDown_WeightChanger.Text" xml:space="preserve">
+    <value>UpDown_WeightChanger</value>
+  </data>
+  <data name="RemoveScavTimer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 29</value>
+  </data>
+  <data name="&gt;&gt;tabPage_items.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_version.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UpDown_TherapistNewHealingPrice.Name" xml:space="preserve">
+    <value>UpDown_TherapistNewHealingPrice</value>
+  </data>
+  <data name="EquipRigsWithArmors.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>22, 0, 0, 0</value>
+  </data>
+  <data name="UpDown_MaxStackAmount.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ChangeWeaponSkillMultiplier.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="&gt;&gt;Label_SkillFatiguePerPoint.Name" xml:space="preserve">
+    <value>Label_SkillFatiguePerPoint</value>
+  </data>
+  <data name="SkillFreshPoints.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="&gt;&gt;LootExpPerc.Name" xml:space="preserve">
+    <value>LootExpPerc</value>
+  </data>
+  <data name="UpDown_SkillFreshPoints.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="&gt;&gt;AllExaminedItems.Type" xml:space="preserve">
+    <value>Sunny.UI.UICheckBox, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="Button_ApplyConfig.Text" xml:space="preserve">
+    <value>应用修改</value>
+  </data>
+  <data name="&gt;&gt;ChangeWeaponSkillMultiplier.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="AllTraders4Stars.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;IncreaseTherapistHealingPrice.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;SkillPointsBeforeFatigue.Parent" xml:space="preserve">
+    <value>tabPage_player</value>
+  </data>
+  <data name="ChangeMaxStamina.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;RemoveInRaidsRestrictions.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;UnlimitedStamina.Name" xml:space="preserve">
+    <value>UnlimitedStamina</value>
+  </data>
+  <data name="&gt;&gt;Header.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="UpDown_MaxStackAmount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 20</value>
+  </data>
+  <data name="&gt;&gt;SkillFreshPoints.Parent" xml:space="preserve">
+    <value>tabPage_player</value>
+  </data>
+  <data name="AllQuestsAvailable.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="&gt;&gt;Label_SkillFreshEffectiveness.Name" xml:space="preserve">
+    <value>Label_SkillFreshEffectiveness</value>
+  </data>
+  <data name="EquipRigsWithArmors.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="UpDown_SkillMinEffectiveness.Text" xml:space="preserve">
+    <value>uiDoubleUpDown1</value>
+  </data>
+  <data name="&gt;&gt;RemoveLabKeycard.Type" xml:space="preserve">
+    <value>Sunny.UI.UICheckBox, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RemoveSecureContainerFilters.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="MoreStack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 29</value>
+  </data>
+  <data name="UnlimitedStamina.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 29</value>
+  </data>
+  <data name="InRaidModdable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 362</value>
+  </data>
+  <data name="SkillFatigueReset.Text" xml:space="preserve">
+    <value>uiTrackBar3</value>
+  </data>
+  <data name="ScavCasePriceReducer.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ScavCasePriceReducer.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>22, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;WeaponSkillMultiplier.Parent" xml:space="preserve">
+    <value>tabPage_player</value>
+  </data>
+  <data name="ChangeLootMultipiers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>352, 208</value>
+  </data>
+  <data name="AllClothesFree.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="AllExtractionsAvailable.Text" xml:space="preserve">
+    <value>启用所有撤离点</value>
+  </data>
+  <data name="UpDown_SkillMinEffectiveness.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>100, 0</value>
+  </data>
+  <data name="RemoveSecureContainerFilters.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="&gt;&gt;RemoveSecureContainerFilters.Name" xml:space="preserve">
+    <value>RemoveSecureContainerFilters</value>
+  </data>
+  <data name="&gt;&gt;SkillMultiplier.Parent" xml:space="preserve">
+    <value>tabPage_player</value>
+  </data>
+  <data name="&gt;&gt;ChangeWeaponSkillMultiplier.Type" xml:space="preserve">
+    <value>Sunny.UI.UICheckBox, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tabPage_other.Text" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="WeightOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="SkillFatigueReset.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="tabPage_hideout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>822, 492</value>
+  </data>
+  <data name="&gt;&gt;ExtendedRaid.Parent" xml:space="preserve">
+    <value>tabPage_raids</value>
+  </data>
+  <data name="&gt;&gt;InRaidModdable.Name" xml:space="preserve">
+    <value>InRaidModdable</value>
+  </data>
+  <data name="UpDown_ForcedMoneyStack.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="&gt;&gt;tabPage_hideout.Name" xml:space="preserve">
+    <value>tabPage_hideout</value>
+  </data>
+  <data name="AllExtractionsAvailable.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="&gt;&gt;FastScavCase.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;NewMaxStamina.Type" xml:space="preserve">
+    <value>Sunny.UI.UITrackBar, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ChangeLootMultipiers.Text" xml:space="preserve">
+    <value>修改战利品倍数</value>
+  </data>
+  <data name="UpDown_WeaponSkillMultiplier.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>100, 0</value>
+  </data>
+  <data name="Aside.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 527</value>
+  </data>
+  <data name="&gt;&gt;ScavCasePriceReducer.Parent" xml:space="preserve">
+    <value>tabPage_hideout</value>
+  </data>
+  <data name="Button_ApplyConfig.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 49</value>
+  </data>
+  <data name="AllSkillsMaster.Text" xml:space="preserve">
+    <value>所有技能大师</value>
+  </data>
+  <data name="AllQuestsAvailable.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="WeightOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 107</value>
+  </data>
+  <data name="tabPage_player.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 0</value>
+  </data>
+  <data name="&gt;&gt;ExtendedRaid.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Header.Name" xml:space="preserve">
+    <value>Header</value>
+  </data>
+  <data name="&gt;&gt;UpDown_SkillPointsBeforeFatigue.Parent" xml:space="preserve">
+    <value>tabPage_player</value>
+  </data>
+  <data name="&gt;&gt;UpDown_LootExpPerc.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ExamineExpPerc.Name" xml:space="preserve">
+    <value>ExamineExpPerc</value>
+  </data>
+  <data name="&gt;&gt;AllTraders4Stars.Type" xml:space="preserve">
+    <value>Sunny.UI.UICheckBox, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RemoveInRaidsRestrictions.Name" xml:space="preserve">
+    <value>RemoveInRaidsRestrictions</value>
+  </data>
+  <data name="&gt;&gt;tabPage_player.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Button_ApplyConfig.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="UnlimitedStamina.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>923, 590</value>
+  </data>
+  <data name="SkillMultiplier.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="RemoveScavTimer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="FastScavCase.Text" xml:space="preserve">
+    <value>快速Scav宝箱</value>
+  </data>
+  <data name="&gt;&gt;ForceMoneyStack.Type" xml:space="preserve">
+    <value>Sunny.UI.UICheckBox, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="RemoveContainersRestrictions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 327</value>
+  </data>
+  <data name="LootExpPerc.Text" xml:space="preserve">
+    <value>LootExpPerc</value>
+  </data>
+  <data name="ExamineExpPerc.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="IncreaseExamineExp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="RemoveBackpacksRestrictions.Text" xml:space="preserve">
+    <value>去除背包限制</value>
+  </data>
+  <data name="&gt;&gt;Label_SkillPointsBeforeFatigue.Parent" xml:space="preserve">
+    <value>tabPage_player</value>
+  </data>
+  <data name="&gt;&gt;Label_SkillFreshPoints.Parent" xml:space="preserve">
+    <value>tabPage_player</value>
+  </data>
+  <data name="&gt;&gt;Label_SkillMinEffectiveness.Name" xml:space="preserve">
+    <value>Label_SkillMinEffectiveness</value>
+  </data>
+  <data name="&gt;&gt;Aside.Type" xml:space="preserve">
+    <value>Sunny.UI.UINavMenu, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabPage_hideout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SkillFreshPoints.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 29</value>
+  </data>
+  <data name="&gt;&gt;ChangeFleaMarketLvl.Parent" xml:space="preserve">
+    <value>tabPage_traders</value>
+  </data>
+  <data name="Label_SkillFatiguePerPoint.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="NoExtractsRestrictions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 19</value>
+  </data>
+  <data name="&gt;&gt;UpDown_SkillFatiguePerPoint.Parent" xml:space="preserve">
+    <value>tabPage_player</value>
+  </data>
+  <data name="&gt;&gt;AllExaminedItems.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;UpDown_SkillFreshPoints.Name" xml:space="preserve">
+    <value>UpDown_SkillFreshPoints</value>
+  </data>
+  <data name="&gt;&gt;tabPage_other.Name" xml:space="preserve">
+    <value>tabPage_other</value>
+  </data>
+  <data name="EquipRigsWithArmors.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="&gt;&gt;ChangeLootMultipiers.Parent" xml:space="preserve">
+    <value>tabPage_raids</value>
+  </data>
+  <data name="&gt;&gt;IncreasedBossChance.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;NewMaxStamina.Name" xml:space="preserve">
+    <value>NewMaxStamina</value>
+  </data>
+  <data name="&gt;&gt;UpDown_MaxStackAmount.Name" xml:space="preserve">
+    <value>UpDown_MaxStackAmount</value>
+  </data>
+  <data name="Button_ApplyConfig.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ExamineExpPerc.Text" xml:space="preserve">
+    <value>ExamineExpPerc</value>
+  </data>
+  <data name="RemoveContainersRestrictions.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Button_ApplyConfig.Name" xml:space="preserve">
+    <value>Button_ApplyConfig</value>
+  </data>
+  <data name="UpDown_NewMaxStamina.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 407</value>
+  </data>
+  <data name="UpDown_FleaMarketMiniLvl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>398, 147</value>
+  </data>
+  <data name="UpDown_SkillFatiguePerPoint.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>100, 0</value>
+  </data>
+  <data name="&gt;&gt;ForceMoneyStack.Parent" xml:space="preserve">
+    <value>tabPage_items</value>
+  </data>
+  <data name="AllClothesFree.Text" xml:space="preserve">
+    <value>所有时装免费</value>
+  </data>
+  <data name="&gt;&gt;RemoveLabKeycard.Parent" xml:space="preserve">
+    <value>tabPage_raids</value>
+  </data>
+  <data name="Label_SkillFatiguePerPoint.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="Label_SkillMinEffectiveness.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="HideWarningMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 29</value>
+  </data>
+  <data name="HideWarningMessage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="&gt;&gt;HideWarningMessage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="SkillMinEffectiveness.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 190</value>
+  </data>
+  <data name="&gt;&gt;AllTraders4Stars.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;WeaponSkillMultiplier.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="AllQuestsAvailable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 29</value>
+  </data>
+  <data name="&gt;&gt;IncreaseLootExp.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;tabPage_player.Parent" xml:space="preserve">
+    <value>uiTabControlMenu1</value>
+  </data>
+  <data name="UpDown_SkillMultiplier.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="UpDown_MaxStackAmount.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>100, 0</value>
+  </data>
+  <data name="UpDown_ForcedMoneyStack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 20</value>
+  </data>
+  <data name="UpDown_ForcedMoneyStack.Text" xml:space="preserve">
+    <value>uiIntegerUpDown1</value>
+  </data>
+  <data name="UpDown_WeightChanger.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="AllSkillsMaster.Location" type="System.Drawing.Point, System.Drawing">
+    <value>517, 83</value>
+  </data>
+  <data name="ChangeWeaponSkillMultiplier.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 118</value>
+  </data>
+  <data name="FastHideoutProduction.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>22, 0, 0, 0</value>
+  </data>
+  <data name="IncreaseLootExp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 393</value>
+  </data>
+  <data name="&gt;&gt;SkillMinEffectiveness.Parent" xml:space="preserve">
+    <value>tabPage_player</value>
+  </data>
+  <data name="AllClotheForEverySide.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>22, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;UpDown_TherapistNewHealingPrice.Type" xml:space="preserve">
+    <value>Sunny.UI.UIIntegerUpDown, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="SkillMinEffectiveness.Text" xml:space="preserve">
+    <value>SkillMinEffectiveness</value>
+  </data>
+  <data name="&gt;&gt;UpDown_SkillFatigueReset.Name" xml:space="preserve">
+    <value>UpDown_SkillFatigueReset</value>
+  </data>
+  <data name="&gt;&gt;FastScavCase.Name" xml:space="preserve">
+    <value>FastScavCase</value>
+  </data>
+  <data name="&gt;&gt;ExamineExpPerc.Parent" xml:space="preserve">
+    <value>tabPage_items</value>
+  </data>
+  <data name="FleaMarketMiniLvl.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;RemoveContainersRestrictions.Parent" xml:space="preserve">
+    <value>tabPage_items</value>
+  </data>
+  <data name="TherapistNewHealingPrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 29</value>
+  </data>
+  <data name="UpDown_TherapistNewHealingPrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 20</value>
+  </data>
+  <data name="AllSkillsMaster.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>22, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;WeightChanger.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="SkillPointsBeforeFatigue.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="FastScavCase.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="HideWarningMessage.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="FastHideoutConstruction.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="&gt;&gt;ChangeSkillProgressionMultiplier.Type" xml:space="preserve">
+    <value>Sunny.UI.UICheckBox, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Label_SkillFreshPoints.Name" xml:space="preserve">
+    <value>Label_SkillFreshPoints</value>
+  </data>
+  <data name="ChangeSkillProgressionMultiplier.Text" xml:space="preserve">
+    <value>修改技能成长倍数</value>
+  </data>
+  <data name="RemoveLabKeycard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 208</value>
+  </data>
+  <data name="HideWarningMessage.Text" xml:space="preserve">
+    <value>隐藏警告信息</value>
+  </data>
+  <data name="&gt;&gt;SkillPointsBeforeFatigue.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="SkillFatiguePerPoint.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="UpDown_SkillMultiplier.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;Aside.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;RemoveInRaidsRestrictions.Type" xml:space="preserve">
+    <value>Sunny.UI.UICheckBox, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UpDown_LootExpPerc.Name" xml:space="preserve">
+    <value>UpDown_LootExpPerc</value>
+  </data>
+  <data name="&gt;&gt;Label_SkillPointsBeforeFatigue.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="IncreaseExamineExp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 29</value>
+  </data>
+  <data name="&gt;&gt;ChangeSkillProgressionMultiplier.Name" xml:space="preserve">
+    <value>ChangeSkillProgressionMultiplier</value>
+  </data>
+  <data name="&gt;&gt;Aside.Name" xml:space="preserve">
+    <value>Aside</value>
+  </data>
+  <data name="FleaMarketMiniLvl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 142</value>
+  </data>
+  <data name="&gt;&gt;UpDown_NewMaxStamina.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="SkillFreshPoints.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="FleaMarketMiniLvl.Text" xml:space="preserve">
+    <value>FleaMarketMiniLvl</value>
+  </data>
+  <data name="&gt;&gt;UnlimitedStamina.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;UpDown_WeaponSkillMultiplier.Name" xml:space="preserve">
+    <value>UpDown_WeaponSkillMultiplier</value>
+  </data>
+  <data name="&gt;&gt;tabPage_raids.Parent" xml:space="preserve">
+    <value>uiTabControlMenu1</value>
+  </data>
+  <data name="RemoveBackpacksRestrictions.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="SkillMinEffectiveness.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;SkillMinEffectiveness.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;NoExtractsRestrictions.Parent" xml:space="preserve">
+    <value>tabPage_raids</value>
+  </data>
+  <data name="IncreaseTherapistHealingPrice.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="IncreaseLootExp.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="Label_SkillFreshPoints.Text" xml:space="preserve">
+    <value>技能刷新点</value>
+  </data>
+  <data name="IncreasedBossChance.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>22, 0, 0, 0</value>
+  </data>
+  <data name="UpDown_LootExpPerc.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="IncreaseExamineExp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 428</value>
+  </data>
+  <data name="&gt;&gt;FleaMarketMiniLvl.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;UpDown_SkillMinEffectiveness.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;SkillFreshPoints.Name" xml:space="preserve">
+    <value>SkillFreshPoints</value>
+  </data>
+  <data name="MoreStack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 152</value>
+  </data>
+  <data name="tabPage_items.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 0</value>
+  </data>
+  <data name="DisableSkillFatigue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 29</value>
+  </data>
+  <data name="UpDown_SkillFreshPoints.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 301</value>
+  </data>
+  <data name="&gt;&gt;ScavCasePriceReducer.Type" xml:space="preserve">
+    <value>Sunny.UI.UICheckBox, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;FastHideoutProduction.Type" xml:space="preserve">
+    <value>Sunny.UI.UICheckBox, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="RemoveScavTimer.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="FastScavCase.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 136</value>
+  </data>
+  <data name="RemoveInRaidsRestrictions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 29</value>
+  </data>
+  <data name="SkillPointsBeforeFatigue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 29</value>
+  </data>
+  <data name="SkillFatiguePerPoint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 29</value>
+  </data>
+  <data name="AllSkillsMaster.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="UpDown_FleaMarketMiniLvl.Text" xml:space="preserve">
+    <value>uiIntegerUpDown2</value>
+  </data>
+  <data name="&gt;&gt;AllClotheForEverySide.Parent" xml:space="preserve">
+    <value>tabPage_traders</value>
+  </data>
+  <data name="&gt;&gt;Label_SkillPointsBeforeFatigue.Type" xml:space="preserve">
+    <value>Sunny.UI.UILabel, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;TherapistNewHealingPrice.Parent" xml:space="preserve">
+    <value>tabPage_traders</value>
+  </data>
+  <data name="&gt;&gt;AllSkillsMaster.Name" xml:space="preserve">
+    <value>AllSkillsMaster</value>
+  </data>
+  <data name="&gt;&gt;UpDown_SkillMinEffectiveness.Name" xml:space="preserve">
+    <value>UpDown_SkillMinEffectiveness</value>
+  </data>
+  <data name="&gt;&gt;UpDown_ExamineExpPerc.Name" xml:space="preserve">
+    <value>UpDown_ExamineExpPerc</value>
+  </data>
+  <data name="UpDown_LootExpPerc.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="AllQuestsAvailable.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>22, 0, 0, 0</value>
+  </data>
+  <data name="uiTabControlMenu1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;HideWarningMessage.Parent" xml:space="preserve">
+    <value>tabPage_other</value>
+  </data>
+  <data name="FleaMarketMiniLvl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 29</value>
+  </data>
+  <data name="MaxStackAmount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 29</value>
+  </data>
+  <data name="SkillFreshPoints.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;RemoveContainersRestrictions.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;UpDown_WeightChanger.Name" xml:space="preserve">
+    <value>UpDown_WeightChanger</value>
+  </data>
+  <data name="UpDown_WeaponSkillMultiplier.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="&gt;&gt;UpDown_ForcedMoneyStack.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="UpDown_WeightChanger.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>100, 0</value>
+  </data>
+  <data name="ChangeSkillProgressionMultiplier.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabPage_items.Parent" xml:space="preserve">
+    <value>uiTabControlMenu1</value>
+  </data>
+  <data name="IncreaseLootExp.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="&gt;&gt;UpDown_WeaponSkillMultiplier.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;SkillFatiguePerPoint.Type" xml:space="preserve">
+    <value>Sunny.UI.UITrackBar, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ForceMoneyStack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 222</value>
+  </data>
+  <data name="UpDown_SkillPointsBeforeFatigue.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>100, 0</value>
+  </data>
+  <data name="tabPage_other.Size" type="System.Drawing.Size, System.Drawing">
+    <value>822, 492</value>
+  </data>
+  <data name="&gt;&gt;FleaMarketMiniLvl.Parent" xml:space="preserve">
+    <value>tabPage_traders</value>
+  </data>
+  <data name="ChangeLootMultipiers.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;UpDown_SkillMultiplier.Parent" xml:space="preserve">
+    <value>tabPage_player</value>
+  </data>
+  <data name="TherapistNewHealingPrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 186</value>
+  </data>
+  <data name="UpDown_SkillPointsBeforeFatigue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 338</value>
+  </data>
+  <data name="UpDown_SkillMinEffectiveness.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="&gt;&gt;ScavCasePriceReducer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Button_ReloadAll.Text" xml:space="preserve">
+    <value>重新加载所有</value>
+  </data>
+  <data name="&gt;&gt;EquipRigsWithArmors.Name" xml:space="preserve">
+    <value>EquipRigsWithArmors</value>
+  </data>
+  <data name="RemoveLabKeycard.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>22, 0, 0, 0</value>
+  </data>
+  <data name="FastHideoutProduction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 101</value>
+  </data>
+  <data name="&gt;&gt;SkillPointsBeforeFatigue.Name" xml:space="preserve">
+    <value>SkillPointsBeforeFatigue</value>
+  </data>
+  <data name="&gt;&gt;UnlimitedStamina.Type" xml:space="preserve">
+    <value>Sunny.UI.UICheckBox, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="UpDown_ExamineExpPerc.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>100, 0</value>
+  </data>
+  <data name="&gt;&gt;Button_ApplyConfig.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="AllExaminedItems.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="MoreStack.Text" xml:space="preserve">
+    <value>更多堆叠</value>
+  </data>
+  <data name="ScavCasePriceReducer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="&gt;&gt;Label_version.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Label_SkillFatigueReset.Name" xml:space="preserve">
+    <value>Label_SkillFatigueReset</value>
+  </data>
+  <data name="ExamineExpPerc.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="Label_SkillFreshEffectiveness.Text" xml:space="preserve">
+    <value>技能刷新效果</value>
+  </data>
+  <data name="RemoveLabKeycard.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="&gt;&gt;ChangeFleaMarketLvl.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;tabPage_player.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabPage_hideout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 0</value>
+  </data>
+  <data name="uiTabControlMenu1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="UpDown_SkillFatiguePerPoint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 234</value>
+  </data>
+  <data name="UpDown_WeightChanger.Location" type="System.Drawing.Point, System.Drawing">
+    <value>380, 112</value>
+  </data>
+  <data name="UpDown_TherapistNewHealingPrice.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="&gt;&gt;WeightOptions.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;AllClotheForEverySide.Name" xml:space="preserve">
+    <value>AllClotheForEverySide</value>
+  </data>
+  <data name="MaxInsuranceStorageTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="SkillFatiguePerPoint.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="UpDown_WeaponSkillMultiplier.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="UpDown_WeaponSkillMultiplier.Location" type="System.Drawing.Point, System.Drawing">
+    <value>373, 122</value>
+  </data>
+  <data name="Label_version.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 555</value>
+  </data>
+  <data name="&gt;&gt;SkillPointsBeforeFatigue.Type" xml:space="preserve">
+    <value>Sunny.UI.UITrackBar, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="NewMaxStamina.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 401</value>
+  </data>
+  <data name="WeaponSkillMultiplier.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="&gt;&gt;uiTabControlMenu1.Type" xml:space="preserve">
+    <value>Sunny.UI.UITabControlMenu, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="TherapistNewHealingPrice.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="tabPage_traders.Size" type="System.Drawing.Size, System.Drawing">
+    <value>822, 492</value>
+  </data>
+  <data name="IncreaseLootExp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="AllExaminedItems.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="&gt;&gt;UpDown_SkillMinEffectiveness.Parent" xml:space="preserve">
+    <value>tabPage_player</value>
+  </data>
+  <data name="ChangeSkillProgressionMultiplier.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 83</value>
+  </data>
+  <data name="&gt;&gt;InRaidModdable.Type" xml:space="preserve">
+    <value>Sunny.UI.UICheckBox, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="IncreaseExamineExp.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;Button_ReloadAll.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UpDown_TherapistNewHealingPrice.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;UpDown_NewMaxStamina.Parent" xml:space="preserve">
+    <value>tabPage_player</value>
+  </data>
+  <data name="&gt;&gt;tabPage_items.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="UpDown_ExamineExpPerc.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ExamineExpPerc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 29</value>
+  </data>
+  <data name="&gt;&gt;AllClothesFree.Name" xml:space="preserve">
+    <value>AllClothesFree</value>
+  </data>
+  <data name="ChangeMaxStamina.Text" xml:space="preserve">
+    <value>修改最大耐力</value>
+  </data>
+  <data name="EquipRigsWithArmors.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="Label_SkillFatigueReset.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="ForceMoneyStack.Text" xml:space="preserve">
+    <value>强制金钱堆叠</value>
+  </data>
+  <data name="UpDown_SkillFreshPoints.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="UpDown_LootExpPerc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 20</value>
+  </data>
+  <data name="Label_SkillMinEffectiveness.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 23</value>
+  </data>
+  <data name="SkillFreshPoints.Text" xml:space="preserve">
+    <value>SkillFreshPoints</value>
+  </data>
+  <data name="SkillMinEffectiveness.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="InRaidModdable.Text" xml:space="preserve">
+    <value>InRaidModdable</value>
+  </data>
+  <data name="&gt;&gt;ChangeMaxStamina.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="WeightOptions.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>22, 0, 0, 0</value>
+  </data>
+  <data name="IncreaseLootExp.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>22, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;WeightChanger.Name" xml:space="preserve">
+    <value>WeightChanger</value>
+  </data>
+  <data name="&gt;&gt;IncreaseExamineExp.Name" xml:space="preserve">
+    <value>IncreaseExamineExp</value>
+  </data>
+  <data name="&gt;&gt;Label_SkillMinEffectiveness.Type" xml:space="preserve">
+    <value>Sunny.UI.UILabel, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;AllClotheForEverySide.Type" xml:space="preserve">
+    <value>Sunny.UI.UICheckBox, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="NewMaxStamina.Text" xml:space="preserve">
+    <value>NewMaxStamina</value>
+  </data>
+  <data name="&gt;&gt;tabPage_other.Parent" xml:space="preserve">
+    <value>uiTabControlMenu1</value>
+  </data>
+  <data name="&gt;&gt;ChangeLootMultipiers.Type" xml:space="preserve">
+    <value>Sunny.UI.UICheckBox, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;MoreStack.Name" xml:space="preserve">
+    <value>MoreStack</value>
+  </data>
+  <data name="RemoveLabKeycard.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="RemoveInRaidsRestrictions.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="SkillFatiguePerPoint.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="uiTabControlMenu1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>923, 492</value>
+  </data>
+  <data name="&gt;&gt;UpDown_SkillFreshEffectiveness.Parent" xml:space="preserve">
+    <value>tabPage_player</value>
+  </data>
+  <data name="InRaidModdable.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="ChangeSkillProgressionMultiplier.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="UpDown_NewMaxStamina.Text" xml:space="preserve">
+    <value>uiIntegerUpDown2</value>
+  </data>
+  <data name="UpDown_LootExpPerc.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="IncreaseExamineExp.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>22, 0, 0, 0</value>
+  </data>
+  <data name="IncreaseTherapistHealingPrice.Text" xml:space="preserve">
+    <value>增加治疗专家康复价格</value>
+  </data>
+  <data name="AllTraders4Stars.Text" xml:space="preserve">
+    <value>AllTraders4Stars</value>
+  </data>
+  <data name="&gt;&gt;IncreaseLootExp.Name" xml:space="preserve">
+    <value>IncreaseLootExp</value>
+  </data>
+  <data name="SkillMultiplier.Text" xml:space="preserve">
+    <value>SkillMultiplier</value>
+  </data>
+  <data name="Button_ReloadAll.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="ScavCasePriceReducer.Text" xml:space="preserve">
+    <value>Scav宝箱价格缩减</value>
+  </data>
+  <data name="ChangeFleaMarketLvl.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="Label_SkillPointsBeforeFatigue.Text" xml:space="preserve">
+    <value>当前疲劳技能点</value>
+  </data>
+  <data name="ForceMoneyStack.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="ForcedMoneyStack.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="ChangeWeaponSkillMultiplier.Text" xml:space="preserve">
+    <value>修改武器成长倍数</value>
+  </data>
+  <data name="&gt;&gt;SkillMinEffectiveness.Name" xml:space="preserve">
+    <value>SkillMinEffectiveness</value>
+  </data>
+  <data name="DisableSkillFatigue.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="tabPage_raids.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 0</value>
+  </data>
+  <data name="&gt;&gt;AllSkillsMaster.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="RemoveSecureContainerFilters.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>22, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;UpDown_SkillPointsBeforeFatigue.Name" xml:space="preserve">
+    <value>UpDown_SkillPointsBeforeFatigue</value>
+  </data>
+  <data name="DisableSkillFatigue.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="AllExtractionsAvailable.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="NoExtractsRestrictions.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="ScavCasePriceReducer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 171</value>
+  </data>
+  <data name="&gt;&gt;UpDown_SkillFatigueReset.Parent" xml:space="preserve">
+    <value>tabPage_player</value>
+  </data>
+  <data name="NoExtractsRestrictions.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>22, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;FleaMarketMiniLvl.Type" xml:space="preserve">
+    <value>Sunny.UI.UITrackBar, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="UpDown_MaxStackAmount.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="&gt;&gt;UpDown_ForcedMoneyStack.Name" xml:space="preserve">
+    <value>UpDown_ForcedMoneyStack</value>
+  </data>
+  <data name="ChangeFleaMarketLvl.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>22, 0, 0, 0</value>
+  </data>
+  <data name="AllClothesFree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 29</value>
+  </data>
+  <data name="RemoveScavTimer.Text" xml:space="preserve">
+    <value>去除Scav等待时间</value>
+  </data>
+  <data name="FastHideoutProduction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 29</value>
+  </data>
+  <data name="NoExtractsRestrictions.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="&gt;&gt;DisableSkillFatigue.Type" xml:space="preserve">
+    <value>Sunny.UI.UICheckBox, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;AllSkillsMaster.Type" xml:space="preserve">
+    <value>Sunny.UI.UICheckBox, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ChangeMaxStamina.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>22, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;tabPage_player.Name" xml:space="preserve">
+    <value>tabPage_player</value>
+  </data>
+  <data name="FastHideoutProduction.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="RemoveContainersRestrictions.Text" xml:space="preserve">
+    <value>去除容器限制</value>
+  </data>
+  <data name="InRaidModdable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 25</value>
+  </data>
+  <data name="&gt;&gt;Button_ReloadAll.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="AllSkillsMaster.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 29</value>
+  </data>
+  <data name="UpDown_SkillPointsBeforeFatigue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="FastHideoutProduction.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="IncreasedBossChance.Text" xml:space="preserve">
+    <value>增大Boss概率(100%)</value>
+  </data>
+  <data name="&gt;&gt;Label_version.Type" xml:space="preserve">
+    <value>Sunny.UI.UILabel, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="SkillFatigueReset.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="MaxStackAmount.Text" xml:space="preserve">
+    <value>MaxStackAmount</value>
+  </data>
+  <data name="&gt;&gt;UpDown_SkillPointsBeforeFatigue.Type" xml:space="preserve">
+    <value>Sunny.UI.UIIntegerUpDown, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="RemoveLabKeycard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 29</value>
+  </data>
+  <data name="UpDown_SkillPointsBeforeFatigue.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="UpDown_ForcedMoneyStack.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="RemoveInRaidsRestrictions.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="ChangeMaxStamina.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 401</value>
+  </data>
+  <data name="ChangeWeaponSkillMultiplier.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;WeightOptions.Type" xml:space="preserve">
+    <value>Sunny.UI.UICheckBox, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="NewMaxStamina.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 29</value>
+  </data>
+  <data name="&gt;&gt;UpDown_SkillFatigueReset.Type" xml:space="preserve">
+    <value>Sunny.UI.UIIntegerUpDown, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;IncreaseExamineExp.Parent" xml:space="preserve">
+    <value>tabPage_items</value>
+  </data>
+  <data name="&gt;&gt;TherapistNewHealingPrice.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="UpDown_SkillFatiguePerPoint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 20</value>
+  </data>
+  <data name="ForcedMoneyStack.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="AllSkillsMaster.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="Label_SkillFreshPoints.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 299</value>
+  </data>
+  <data name="WeightChanger.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 29</value>
+  </data>
+  <data name="ExtendedRaid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 29</value>
+  </data>
+  <data name="Label_SkillFatigueReset.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="Label_SkillFreshEffectiveness.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="&gt;&gt;Label_SkillFreshEffectiveness.Parent" xml:space="preserve">
+    <value>tabPage_player</value>
+  </data>
+  <data name="&gt;&gt;LootExpPerc.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="UpDown_TherapistNewHealingPrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>400, 189</value>
+  </data>
+  <data name="&gt;&gt;HideWarningMessage.Type" xml:space="preserve">
+    <value>Sunny.UI.UICheckBox, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="InRaidModdable.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="ChangeFleaMarketLvl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 142</value>
+  </data>
+  <data name="LootExpPerc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>191, 393</value>
+  </data>
+  <data name="&gt;&gt;MoreStack.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;MaxInsuranceStorageTime.Name" xml:space="preserve">
+    <value>MaxInsuranceStorageTime</value>
+  </data>
+  <data name="&gt;&gt;AllTraders4Stars.Name" xml:space="preserve">
+    <value>AllTraders4Stars</value>
+  </data>
+  <data name="UnlimitedStamina.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>22, 0, 0, 0</value>
+  </data>
+  <data name="UpDown_SkillFreshEffectiveness.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="RemoveSecureContainerFilters.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="SkillFatiguePerPoint.Text" xml:space="preserve">
+    <value>SkillFatiguePerPoint</value>
+  </data>
+  <data name="ForcedMoneyStack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 29</value>
+  </data>
+  <data name="&gt;&gt;AllSkillsMaster.Parent" xml:space="preserve">
+    <value>tabPage_player</value>
+  </data>
+  <data name="&gt;&gt;MaxStackAmount.Name" xml:space="preserve">
+    <value>MaxStackAmount</value>
+  </data>
+  <data name="&gt;&gt;UpDown_WeightChanger.Type" xml:space="preserve">
+    <value>Sunny.UI.UIIntegerUpDown, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="UpDown_FleaMarketMiniLvl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 20</value>
+  </data>
+  <data name="MaxStackAmount.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="Button_ApplyConfig.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA
+        AADl5eX/5eXl/+Xl5f/l5eX/5eXl/+Xl5f/l5eX/5eXl/+Xl5f/l5eX/6Ojo/+7u7v/y8vL/9fX1//b2
+        9v/4+Pj/+Pj4//b29v/19fX/8vLy/+7u7v/o6Oj/5eXl/+Xl5f/l5eX/5eXl/+Xl5f/l5eX/5eXl/+Xl
+        5f/l5eX/5eXl/+Xl5f/l5eX/5eXl/+Xl5f/l5eX/5eXl/+Xl5f/o6Oj/8vLy//v7+//+/v7/////////
+        //////////////////////////////////////////////7+/v/7+/v/8vLy/+jo6P/l5eX/5eXl/+Xl
+        5f/l5eX/5eXl/+Xl5f/l5eX/5eXl/+Xl5f/l5eX/5eXl/+Xl5f/m5ub/8/Pz//7+/v//////////////
+        /////////////////////////////////////////////////////////////////////////v7+//Pz
+        8//m5ub/5eXl/+Xl5f/l5eX/5eXl/+Xl5f/l5eX/5eXl/+Xl5f/l5eX/6enp//v7+///////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////v7+//p6en/5eXl/+Xl5f/l5eX/5eXl/+Xl5f/l5eX/5eXl/+np6f/9/f3/////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////39/f/p6en/5eXl/+Xl5f/l5eX/5eXl/+Xl5f/m5ub/+/v7////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////v7+//m5ub/5eXl/+Xl5f/l5eX/5eXl//Pz
+        8//////////////////////////////////////////////////////////////////+8eP//vLm////
+        //////////////////////////////////////////////////////////////Pz8//l5eX/5eXl/+Xl
+        5f/o6Oj//v7+/////////////////////////////////////////////////////////////dKk//yn
+        TP/8p03//dix/////////////////////////////////////////////////////////////v7+/+jo
+        6P/l5eX/5eXl//Ly8v////////////////////////////////////////7+//77+P/+/Pn//v79//3e
+        vP/8p03//KdM//ynTP/8qE///ePG//7+/f/+/Pn//vz5////////////////////////////////////
+        ////////8vLy/+Xl5f/l5eX/+/v7//////////////////////////////////7+/v/9zpv//KhO//yp
+        Uv/8r1z/+6dM//ynTP/8p0z//KdM//ynTP/8p0z//K9d//ypUP/8qE///dSo////////////////////
+        ///////////////////7+/v/5eXl/+jo6P/+/v7//////////////////////////////////vXr//un
+        TP/8p0z//KdM//ynTP/8p0z//KdM//ynTP/8p0z//KdM//ynTP/8p0z//KdM//ynTP/8qE///vz5////
+        //////////////////////////////7+/v/o6Oj/7u7u////////////////////////////////////
+        ///+9+///KdM//ynTP/8p0z//KdM//ynTP/8p0z//KdM//ynTP/8p0z//KdM//ynTP/8p0z//KdM//yp
+        UP/+/Pn//////////////////////////////////////+7u7v/y8vL/////////////////////////
+        //////////////77+P/8qE///KdM//ynTP/8p0z//Llw//7kyf/++PD//vXr//3cuP/8sF7//KdM//yn
+        TP/8p0z//K9d//7+/f//////////////////////////////////////8vLy//X19f//////////////
+        /////////////////////////dy5//ynTP/8p0z//KdM//zAgP/+/Pn///////////////////////71
+        6//8smL//KdM//ynTP/8p0z//uPG///////////////////////////////////////19fX/9vb2////
+        //////////////////////////////3Tpf/8p03//KdM//ynTP/8p0z//vPn////////////////////
+        //////////////3fvv/8p0z//KdM//ynTP/8qE///dix//////////////////////////////////b2
+        9v/4+Pj////////////////////////////+7Nr//KdM//ynTP/8p0z//KdM//yzZf//////////////
+        /////////////////////////vbt//ynTP/8p0z//KdM//ynTP/8p03//vPm////////////////////
+        ////////+Pj4//j4+P////////////////////////////7r1v/8p0z//KdM//ynTP/8p0z//LNl////
+        ///////////////////////////////////+9u3//KdM//ynTP/8p0z//KdM//ynTP/+8eP/////////
+        ///////////////////4+Pj/9vb2/////////////////////////////v79//3Ml//8p0z//KdM//yn
+        TP/8p0z//vPn//////////////////////////////////3fvv/8p0z//KdM//ynTP/8p03//dKk////
+        //////////////////////////////b29v/19fX///////////////////////////////////7+//3W
+        rf/8p0z//KdM//ynTP/8wID//vz5///////////////////////+9ev//LJi//ynTP/8p0z/+6dM//3e
+        vP//////////////////////////////////////9fX1//Ly8v//////////////////////////////
+        /////////vv4//yoT//8p0z//KdM//ynTP/8uXD//uTJ//748P/+9ev//dy4//ywXv/8p0z//KdM//yn
+        TP/8r1z//v79///////////////////////////////////////y8vL/7u7u////////////////////
+        ///////////////////++PH//KdM//ynTP/8p0z//KdM//ynTP/8p0z//KdM//ynTP/8p0z//KdM//yn
+        TP/8p0z//KdM//ypUv/+/Pn//////////////////////////////////////+7u7v/o6Oj//v7+////
+        //////////////////////////////706P/8p0z//KdM//ynTP/8p0z//KdM//ynTP/8p0z//KdM//yn
+        TP/8p0z//KdM//ynTP/8p0z//KhO//77+P/////////////////////////////////+/v7/6Ojo/+Xl
+        5f/7+/v//////////////////////////////////v7+//3Hjv/8p0z//KdM//yoT//8p0z//KdM//yn
+        TP/8p0z//KdM//ynTP/8qE///KdM//unTP/9zpv///7+//////////////////////////////////v7
+        +//l5eX/5eXl//Ly8v///////////////////////////////////////v7+//706P/++PH//vv4//3W
+        rf/8p0z//KdM//ynTP/8p03//dy5//77+P/+9+///vXr//7+/v//////////////////////////////
+        ////////8vLy/+Xl5f/l5eX/6Ojo//7+/v//////////////////////////////////////////////
+        //////////7+//3Ml//8p0z//KdM//3Tpf//////////////////////////////////////////////
+        //////////////7+/v/o6Oj/5eXl/+Xl5f/l5eX/8/Pz////////////////////////////////////
+        /////////////////////////v79//7r1//+7Nr/////////////////////////////////////////
+        ////////////////////////8/Pz/+Xl5f/l5eX/5eXl/+Xl5f/m5ub/+/v7////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////v7+//m5ub/5eXl/+Xl5f/l5eX/5eXl/+Xl5f/p6en//f39////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////9/f3/6enp/+Xl5f/l5eX/5eXl/+Xl5f/l5eX/5eXl/+Xl
+        5f/p6en/+/v7////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////+/v7/+np6f/l5eX/5eXl/+Xl5f/l5eX/5eXl/+Xl
+        5f/l5eX/5eXl/+Xl5f/m5ub/8/Pz//7+/v//////////////////////////////////////////////
+        /////////////////////////////////////////v7+//Pz8//m5ub/5eXl/+Xl5f/l5eX/5eXl/+Xl
+        5f/l5eX/5eXl/+Xl5f/l5eX/5eXl/+Xl5f/l5eX/6Ojo//Ly8v/7+/v//v7+////////////////////
+        ///////////////////////////////////+/v7/+/v7//Ly8v/o6Oj/5eXl/+Xl5f/l5eX/5eXl/+Xl
+        5f/l5eX/5eXl/+Xl5f/l5eX/5eXl/+Xl5f/l5eX/5eXl/+Xl5f/l5eX/5eXl/+Xl5f/o6Oj/7u7u//Ly
+        8v/19fX/9vb2//j4+P/4+Pj/9vb2//X19f/y8vL/7u7u/+jo6P/l5eX/5eXl/+Xl5f/l5eX/5eXl/+Xl
+        5f/l5eX/5eXl/+Xl5f/l5eX/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+</value>
+  </data>
+  <data name="UpDown_ExamineExpPerc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>350, 431</value>
+  </data>
+  <data name="Label_version.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="&gt;&gt;tabPage_raids.Name" xml:space="preserve">
+    <value>tabPage_raids</value>
+  </data>
+  <data name="ForcedMoneyStack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>191, 222</value>
+  </data>
+  <data name="UpDown_LootExpPerc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 397</value>
+  </data>
+  <data name="&gt;&gt;AllClothesFree.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;Header.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;UpDown_SkillFatiguePerPoint.Type" xml:space="preserve">
+    <value>Sunny.UI.UIDoubleUpDown, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;AllExtractionsAvailable.Name" xml:space="preserve">
+    <value>AllExtractionsAvailable</value>
+  </data>
+  <data name="&gt;&gt;ChangeWeaponSkillMultiplier.Parent" xml:space="preserve">
+    <value>tabPage_player</value>
+  </data>
+  <data name="ExtendedRaid.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="AllExaminedItems.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>22, 0, 0, 0</value>
+  </data>
+  <data name="ExamineExpPerc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>188, 428</value>
+  </data>
+  <data name="&gt;&gt;AllExtractionsAvailable.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;RemoveScavTimer.Name" xml:space="preserve">
+    <value>RemoveScavTimer</value>
+  </data>
+  <data name="Label_version.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="UpDown_SkillMultiplier.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="&gt;&gt;UpDown_SkillFreshPoints.Type" xml:space="preserve">
+    <value>Sunny.UI.UIIntegerUpDown, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="WeaponSkillMultiplier.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="uiTabControlMenu1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="ForceMoneyStack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 29</value>
+  </data>
+  <data name="FastHideoutConstruction.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>22, 0, 0, 0</value>
+  </data>
+  <data name="MaxInsuranceStorageTime.Text" xml:space="preserve">
+    <value>最长保险储存时间</value>
+  </data>
+  <data name="&gt;&gt;NoExtractsRestrictions.Name" xml:space="preserve">
+    <value>NoExtractsRestrictions</value>
+  </data>
+  <data name="&gt;&gt;tabPage_items.Name" xml:space="preserve">
+    <value>tabPage_items</value>
+  </data>
+  <data name="ChangeMaxStamina.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 29</value>
+  </data>
+  <data name="AllClotheForEverySide.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 107</value>
+  </data>
+  <data name="&gt;&gt;ChangeSkillProgressionMultiplier.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="Label_SkillFreshEffectiveness.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;AllQuestsAvailable.Type" xml:space="preserve">
+    <value>Sunny.UI.UICheckBox, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;IncreaseExamineExp.Type" xml:space="preserve">
+    <value>Sunny.UI.UICheckBox, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="AllTraders4Stars.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="&gt;&gt;uiTabControlMenu1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="UpDown_SkillFreshEffectiveness.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 268</value>
+  </data>
+  <data name="UpDown_FleaMarketMiniLvl.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="Label_SkillFreshPoints.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="UpDown_ForcedMoneyStack.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>100, 0</value>
+  </data>
+  <data name="&gt;&gt;RemoveSecureContainerFilters.Type" xml:space="preserve">
+    <value>Sunny.UI.UICheckBox, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ExtendedRaid.Name" xml:space="preserve">
+    <value>ExtendedRaid</value>
+  </data>
+  <data name="UpDown_SkillPointsBeforeFatigue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 20</value>
+  </data>
+  <data name="Label_SkillFatigueReset.Text" xml:space="preserve">
+    <value>重置技能疲劳</value>
+  </data>
+  <data name="UpDown_SkillFatigueReset.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="DisableSkillFatigue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 153</value>
+  </data>
+  <data name="NewMaxStamina.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="Label_SkillFatiguePerPoint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 23</value>
+  </data>
+  <data name="AllSkillsMaster.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="UpDown_SkillFatigueReset.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ForceMoneyStack.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>22, 0, 0, 0</value>
+  </data>
+  <data name="DisableSkillFatigue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="&gt;&gt;EquipRigsWithArmors.Parent" xml:space="preserve">
+    <value>tabPage_items</value>
+  </data>
+  <data name="UpDown_ExamineExpPerc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 20</value>
+  </data>
+  <data name="IncreasedBossChance.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;Label_SkillPointsBeforeFatigue.Name" xml:space="preserve">
+    <value>Label_SkillPointsBeforeFatigue</value>
+  </data>
+  <data name="&gt;&gt;UpDown_MaxStackAmount.Parent" xml:space="preserve">
+    <value>tabPage_items</value>
+  </data>
+  <data name="HideWarningMessage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 48</value>
+  </data>
+  <data name="tabPage_raids.Text" xml:space="preserve">
+    <value>战局</value>
+  </data>
+  <data name="ExtendedRaid.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>22, 0, 0, 0</value>
+  </data>
+  <data name="RemoveSecureContainerFilters.Text" xml:space="preserve">
+    <value>去除安全箱过滤器</value>
+  </data>
+  <data name="EquipRigsWithArmors.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 187</value>
+  </data>
+  <data name="&gt;&gt;WeightChanger.Parent" xml:space="preserve">
+    <value>tabPage_items</value>
+  </data>
+  <data name="&gt;&gt;WeaponSkillMultiplier.Type" xml:space="preserve">
+    <value>Sunny.UI.UITrackBar, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="UpDown_LootExpPerc.Text" xml:space="preserve">
+    <value>uiIntegerUpDown1</value>
+  </data>
+  <data name="WeightOptions.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="&gt;&gt;tabPage_raids.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ChangeWeaponSkillMultiplier.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>22, 0, 0, 0</value>
+  </data>
+  <data name="IncreaseLootExp.Text" xml:space="preserve">
+    <value>增大战利品经验</value>
+  </data>
+  <data name="UpDown_FleaMarketMiniLvl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="UnlimitedStamina.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 436</value>
+  </data>
+  <data name="&gt;&gt;UpDown_FleaMarketMiniLvl.Type" xml:space="preserve">
+    <value>Sunny.UI.UIIntegerUpDown, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RemoveBackpacksRestrictions.Parent" xml:space="preserve">
+    <value>tabPage_items</value>
+  </data>
+  <data name="Label_SkillFatigueReset.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="UpDown_MaxStackAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 156</value>
+  </data>
+  <data name="&gt;&gt;Header.Type" xml:space="preserve">
+    <value>Sunny.UI.UINavBar, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="UpDown_SkillMinEffectiveness.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 20</value>
+  </data>
+  <data name="&gt;&gt;ChangeFleaMarketLvl.Name" xml:space="preserve">
+    <value>ChangeFleaMarketLvl</value>
+  </data>
+  <data name="FastHideoutConstruction.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="ForceMoneyStack.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="FastHideoutProduction.Text" xml:space="preserve">
+    <value>藏身处快速生产</value>
+  </data>
+  <data name="&gt;&gt;WeightOptions.Parent" xml:space="preserve">
+    <value>tabPage_items</value>
+  </data>
+  <data name="AllClothesFree.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;IncreaseTherapistHealingPrice.Parent" xml:space="preserve">
+    <value>tabPage_traders</value>
+  </data>
+  <data name="UpDown_ForcedMoneyStack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 227</value>
+  </data>
+  <data name="Label_SkillMinEffectiveness.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="ExtendedRaid.Text" xml:space="preserve">
+    <value>扩展战局（16小时）</value>
+  </data>
+  <data name="SkillPointsBeforeFatigue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 332</value>
+  </data>
+  <data name="&gt;&gt;FastScavCase.Type" xml:space="preserve">
+    <value>Sunny.UI.UICheckBox, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UpDown_SkillFreshEffectiveness.Type" xml:space="preserve">
+    <value>Sunny.UI.UIDoubleUpDown, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;IncreasedBossChance.Type" xml:space="preserve">
+    <value>Sunny.UI.UICheckBox, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="RemoveScavTimer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="IncreaseTherapistHealingPrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 29</value>
+  </data>
+  <data name="&gt;&gt;AllQuestsAvailable.Parent" xml:space="preserve">
+    <value>tabPage_traders</value>
+  </data>
+  <data name="ChangeFleaMarketLvl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="ChangeLootMultipiers.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;DisableSkillFatigue.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;UpDown_MaxStackAmount.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="UpDown_MaxStackAmount.Text" xml:space="preserve">
+    <value>uiIntegerUpDown1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>Sunny.UI.UIHeaderAsideMainFrame, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabPage_traders.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SkillMinEffectiveness.Type" xml:space="preserve">
+    <value>Sunny.UI.UITrackBar, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="AllClotheForEverySide.Text" xml:space="preserve">
+    <value>所有时装通用</value>
+  </data>
+  <data name="&gt;&gt;WeightOptions.Name" xml:space="preserve">
+    <value>WeightOptions</value>
+  </data>
+  <data name="Label_SkillPointsBeforeFatigue.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="UpDown_SkillFreshPoints.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 20</value>
+  </data>
+  <data name="&gt;&gt;UpDown_SkillFreshPoints.Parent" xml:space="preserve">
+    <value>tabPage_player</value>
+  </data>
+  <data name="&gt;&gt;MaxStackAmount.Parent" xml:space="preserve">
+    <value>tabPage_items</value>
+  </data>
+  <data name="UpDown_ExamineExpPerc.Text" xml:space="preserve">
+    <value>UpDown_ExamineExpPerc</value>
+  </data>
+  <data name="ScavCasePriceReducer.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="SkillFatigueReset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 366</value>
+  </data>
+  <data name="WeightOptions.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="tabPage_hideout.Text" xml:space="preserve">
+    <value>藏身处</value>
+  </data>
+  <data name="&gt;&gt;TherapistNewHealingPrice.Type" xml:space="preserve">
+    <value>Sunny.UI.UITrackBar, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;SkillMultiplier.Name" xml:space="preserve">
+    <value>SkillMultiplier</value>
+  </data>
+  <data name="LootExpPerc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 29</value>
+  </data>
+  <data name="&gt;&gt;ExamineExpPerc.Type" xml:space="preserve">
+    <value>Sunny.UI.UITrackBar, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UpDown_SkillMultiplier.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;UpDown_SkillMultiplier.Name" xml:space="preserve">
+    <value>UpDown_SkillMultiplier</value>
+  </data>
+  <data name="SkillMinEffectiveness.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="UpDown_SkillMultiplier.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>100, 0</value>
+  </data>
+  <data name="&gt;&gt;Label_SkillMinEffectiveness.Parent" xml:space="preserve">
+    <value>tabPage_player</value>
+  </data>
+  <data name="&gt;&gt;UpDown_ExamineExpPerc.Parent" xml:space="preserve">
+    <value>tabPage_items</value>
+  </data>
+  <data name="RemoveLabKeycard.Text" xml:space="preserve">
+    <value>去除实验室门禁卡</value>
+  </data>
+  <data name="&gt;&gt;UpDown_ExamineExpPerc.Type" xml:space="preserve">
+    <value>Sunny.UI.UIIntegerUpDown, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="MoreStack.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="UpDown_NewMaxStamina.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>100, 0</value>
+  </data>
+  <data name="&gt;&gt;UpDown_WeightChanger.Parent" xml:space="preserve">
+    <value>tabPage_items</value>
+  </data>
+  <data name="ChangeSkillProgressionMultiplier.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>22, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;ChangeMaxStamina.Name" xml:space="preserve">
+    <value>ChangeMaxStamina</value>
+  </data>
+  <data name="Label_SkillFatigueReset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 23</value>
+  </data>
+  <data name="RemoveScavTimer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 48</value>
+  </data>
+  <data name="AllQuestsAvailable.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="FleaMarketMiniLvl.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="&gt;&gt;RemoveLabKeycard.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="DisableSkillFatigue.Text" xml:space="preserve">
+    <value>关闭技能疲劳</value>
+  </data>
+  <data name="&gt;&gt;AllExtractionsAvailable.Parent" xml:space="preserve">
+    <value>tabPage_raids</value>
+  </data>
+  <data name="Label_SkillFatiguePerPoint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 230</value>
+  </data>
+  <data name="&gt;&gt;IncreaseLootExp.Type" xml:space="preserve">
+    <value>Sunny.UI.UICheckBox, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="SkillMinEffectiveness.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 29</value>
+  </data>
+  <data name="&gt;&gt;FastHideoutProduction.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="SkillFatiguePerPoint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 231</value>
+  </data>
+  <data name="tabPage_items.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>AIOConfigUI</value>
+  </data>
+  <data name="UpDown_WeightChanger.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="&gt;&gt;tabPage_traders.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;UnlimitedStamina.Parent" xml:space="preserve">
+    <value>tabPage_player</value>
+  </data>
+  <data name="&gt;&gt;AllQuestsAvailable.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="WeaponSkillMultiplier.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;SkillFatigueReset.Parent" xml:space="preserve">
+    <value>tabPage_player</value>
+  </data>
+  <data name="&gt;&gt;AllTraders4Stars.Parent" xml:space="preserve">
+    <value>tabPage_traders</value>
+  </data>
+  <data name="&gt;&gt;IncreasedBossChance.Name" xml:space="preserve">
+    <value>IncreasedBossChance</value>
+  </data>
+  <data name="&gt;&gt;NoExtractsRestrictions.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Button_ReloadAll.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="MaxInsuranceStorageTime.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>22, 0, 0, 0</value>
+  </data>
+  <data name="Label_SkillMinEffectiveness.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="&gt;&gt;FastHideoutConstruction.Name" xml:space="preserve">
+    <value>FastHideoutConstruction</value>
+  </data>
+  <data name="&gt;&gt;WeightChanger.Type" xml:space="preserve">
+    <value>Sunny.UI.UITrackBar, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="SkillMultiplier.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 83</value>
+  </data>
+  <data name="&gt;&gt;NoExtractsRestrictions.Type" xml:space="preserve">
+    <value>Sunny.UI.UICheckBox, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;AllExaminedItems.Parent" xml:space="preserve">
+    <value>tabPage_items</value>
+  </data>
+  <data name="Button_ApplyConfig.Location" type="System.Drawing.Point, System.Drawing">
+    <value>453, 533</value>
+  </data>
+  <data name="UpDown_SkillFatigueReset.Text" xml:space="preserve">
+    <value>uiIntegerUpDown2</value>
+  </data>
+  <data name="AllQuestsAvailable.Text" xml:space="preserve">
+    <value>所有任务可用</value>
+  </data>
+  <data name="AllQuestsAvailable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 37</value>
+  </data>
+  <data name="IncreasedBossChance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 115</value>
+  </data>
+  <data name="&gt;&gt;MoreStack.Parent" xml:space="preserve">
+    <value>tabPage_items</value>
+  </data>
+  <data name="WeaponSkillMultiplier.Text" xml:space="preserve">
+    <value>WeaponSkillMultiplier</value>
+  </data>
+  <data name="Header.Size" type="System.Drawing.Size, System.Drawing">
+    <value>923, 492</value>
+  </data>
+  <data name="&gt;&gt;Label_SkillMinEffectiveness.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;Label_SkillFatiguePerPoint.Type" xml:space="preserve">
+    <value>Sunny.UI.UILabel, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="FastHideoutConstruction.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Label_version.Text" xml:space="preserve">
+    <value>Version:</value>
+  </data>
+  <data name="&gt;&gt;ChangeWeaponSkillMultiplier.Name" xml:space="preserve">
+    <value>ChangeWeaponSkillMultiplier</value>
+  </data>
+  <data name="UpDown_SkillFreshPoints.Text" xml:space="preserve">
+    <value>uiIntegerUpDown2</value>
+  </data>
+  <data name="RemoveInRaidsRestrictions.Text" xml:space="preserve">
+    <value>去除战局中的限制</value>
+  </data>
+  <data name="tabPage_player.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="UpDown_SkillFreshEffectiveness.Text" xml:space="preserve">
+    <value>uiDoubleUpDown1</value>
+  </data>
+  <data name="&gt;&gt;Button_ApplyConfig.Type" xml:space="preserve">
+    <value>Sunny.UI.UIButton, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="RemoveScavTimer.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>22, 0, 0, 0</value>
+  </data>
+  <data name="UpDown_SkillFatigueReset.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>100, 0</value>
+  </data>
+  <data name="&gt;&gt;ExtendedRaid.Type" xml:space="preserve">
+    <value>Sunny.UI.UICheckBox, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ChangeLootMultipiers.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="UpDown_NewMaxStamina.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="IncreasedBossChance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="&gt;&gt;EquipRigsWithArmors.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="ForceMoneyStack.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="AllExtractionsAvailable.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;RemoveContainersRestrictions.Name" xml:space="preserve">
+    <value>RemoveContainersRestrictions</value>
+  </data>
+  <data name="Button_ReloadAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 49</value>
+  </data>
+  <data name="&gt;&gt;FastHideoutProduction.Name" xml:space="preserve">
+    <value>FastHideoutProduction</value>
+  </data>
+  <data name="&gt;&gt;FastHideoutProduction.Parent" xml:space="preserve">
+    <value>tabPage_hideout</value>
+  </data>
+  <data name="FleaMarketMiniLvl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="&gt;&gt;UpDown_SkillMultiplier.Type" xml:space="preserve">
+    <value>Sunny.UI.UIIntegerUpDown, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="UpDown_TherapistNewHealingPrice.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="MaxStackAmount.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="HideWarningMessage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>22, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;Label_version.Name" xml:space="preserve">
+    <value>Label_version</value>
+  </data>
+  <data name="&gt;&gt;UpDown_WeaponSkillMultiplier.Parent" xml:space="preserve">
+    <value>tabPage_player</value>
+  </data>
+  <data name="WeightChanger.Text" xml:space="preserve">
+    <value>WeightChanger</value>
+  </data>
+  <data name="tabPage_traders.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 0</value>
+  </data>
+  <data name="&gt;&gt;RemoveLabKeycard.Name" xml:space="preserve">
+    <value>RemoveLabKeycard</value>
+  </data>
+  <data name="&gt;&gt;RemoveInRaidsRestrictions.Parent" xml:space="preserve">
+    <value>tabPage_player</value>
+  </data>
+  <data name="&gt;&gt;tabPage_raids.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tabPage_hideout.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="WeaponSkillMultiplier.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 29</value>
+  </data>
+  <data name="UpDown_SkillFreshEffectiveness.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 20</value>
+  </data>
+  <data name="ChangeFleaMarketLvl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 29</value>
+  </data>
+  <data name="&gt;&gt;LootExpPerc.Parent" xml:space="preserve">
+    <value>tabPage_items</value>
+  </data>
+  <data name="&gt;&gt;ExamineExpPerc.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;UpDown_MaxStackAmount.Type" xml:space="preserve">
+    <value>Sunny.UI.UIIntegerUpDown, SunnyUI, Version=2.2.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="IncreaseTherapistHealingPrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 186</value>
+  </data>
+  <data name="UpDown_TherapistNewHealingPrice.Text" xml:space="preserve">
+    <value>uiIntegerUpDown2</value>
+  </data>
+  <data name="tabPage_other.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 0</value>
+  </data>
+  <data name="SkillMultiplier.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="&gt;&gt;ForceMoneyStack.Name" xml:space="preserve">
+    <value>ForceMoneyStack</value>
+  </data>
+  <data name="tabPage_raids.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="TherapistNewHealingPrice.Text" xml:space="preserve">
+    <value>TherapistNewHealingPrice</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>
